@@ -1,0 +1,55 @@
+{
+  "name": "Random Number Generator",
+  "short_name": "Random Number",
+  "description": "Free online tool to generate random numbers for lotteries, games, and statistical sampling",
+  "start_url": "https://randomnumber.space/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00c3ff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64 128x128 256x256 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Random Number Generator Main Screen"
+    },
+    {
+      "src": "/screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile View of Random Number Generator"
+    }
+  ],
+  "categories": ["utilities", "tools", "productivity"],
+  "lang": "en-US",
+  "orientation": "any",
+  "prefer_related_applications": false
+} 
