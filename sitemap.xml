@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://randomnumber.space/</loc>
-    <lastmod>2023-07-25</lastmod>
+    <lastmod>2023-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://randomnumber.space/"/>
@@ -32,15 +34,76 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://randomnumber.space/"/>
   </url>
   <url>
-    <loc>https://randomnumber.space/privacy/</loc>
-    <lastmod>2023-07-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://randomnumber.space/random-word</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://randomnumber.space/word-generator-preview.jpg</image:loc>
+      <image:title>Random Word Generator</image:title>
+      <image:caption>Generate random words, nouns, verbs, adjectives and tech terms with our free online tool</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://randomnumber.space/terms/</loc>
-    <lastmod>2023-07-25</lastmod>
+    <loc>https://randomnumber.space/random-word/nouns</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://randomnumber.space/word-generator-preview.jpg</image:loc>
+      <image:title>Random Noun Generator</image:title>
+      <image:caption>Generate random nouns for creative writing and language learning</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://randomnumber.space/random-word/verbs</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://randomnumber.space/word-generator-preview.jpg</image:loc>
+      <image:title>Random Verb Generator</image:title>
+      <image:caption>Generate random verbs for creative writing and language learning</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://randomnumber.space/random-word/adjectives</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://randomnumber.space/word-generator-preview.jpg</image:loc>
+      <image:title>Random Adjective Generator</image:title>
+      <image:caption>Generate random adjectives for creative writing and language learning</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://randomnumber.space/random-word/tech</loc>
+    <lastmod>2023-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://randomnumber.space/word-generator-preview.jpg</image:loc>
+      <image:title>Random Tech Term Generator</image:title>
+      <image:caption>Generate random technical terms for technology and computing contexts</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://randomnumber.space/lucky-number</loc>
+    <lastmod>2023-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://randomnumber.space/privacy</loc>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://randomnumber.space/terms</loc>
+    <lastmod>2023-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset> 

@@ -5,7 +5,7 @@
 	From: United States
 
 /* SITE */
-	Last update: 2023/07/25
+	Last update: 2023/06/12
 	Language: English, Spanish, Chinese
 	Doctype: HTML5
 	IDE: Visual Studio Code, Cursor
@@ -21,9 +21,18 @@
 	PWA Support
 	SEO Optimized
 	Fast Loading
+	Word Type Generation (Nouns, Verbs, Adjectives, Tech Terms)
+	Advanced Customization Options
 	
 /* TECHNOLOGY */
 	HTML5, CSS3, JavaScript
 	React, TypeScript
 	Modern UI with Sci-Fi Theme
-	Random Number Algorithm: Cryptographically Strong 
+	Random Number Algorithm: Cryptographically Strong
+	Word Generation: Pattern-based Algorithm with Type Selection
+	
+/* KEYWORDS */
+	random number, random word, random generator,
+	noun generator, verb generator, adjective generator,
+	tech term generator, password generator, creative writing,
+	language learning 

@@ -2,16 +2,35 @@
 User-agent: *
 Allow: /
 
-# Disallow duplicate content from being indexed
-Disallow: /*/index.html
-Disallow: /*?*
+# Block specific paths that don't need indexing
+Disallow: /api/
+Disallow: /cdn-cgi/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /*.js$
+Disallow: /*.css$
 
-# Crawl delay for heavy bots
-User-agent: AhrefsBot
-Crawl-delay: 10
+# Important pages for all search engines
+Allow: /random-word
+Allow: /lucky-number
+Allow: /privacy
+Allow: /terms
 
-User-agent: SemrushBot
-Crawl-delay: 10
+# Language variants
+Allow: /es/
+Allow: /zh/
 
 # Sitemap location
-Sitemap: https://randomnumber.space/sitemap.xml 
+Sitemap: https://randomnumber.space/sitemap.xml
+
+# Improve crawling efficiency
+Crawl-delay: 1
+
+# Special instructions for specific bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1 
